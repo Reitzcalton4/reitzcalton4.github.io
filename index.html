@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Reitzcarlton Lung’ayia M., Forester and Environmental Conservationist focused on forest restoration, indigenous trees, and community conservation.">
+  <title>Reitzcarlton Lung’ayia M. | Forester & Environmental Conservationist</title>
+  <style>
+    :root {
+      --forest: #173f2b;
+      --green: #2d6a4f;
+      --leaf: #74a875;
+      --cream: #f6f5ef;
+      --paper: #ffffff;
+      --ink: #203129;
+      --muted: #5f6e64;
+      --line: #dce5dc;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--cream);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+    a { color: inherit; }
+    .topbar {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(23, 63, 43, .97);
+      color: white; padding: 14px 5%;
+      display: flex; justify-content: space-between; align-items: center; gap: 18px;
+    }
+    .brand { font-weight: 700; letter-spacing: .2px; }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; font-size: .93rem; }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      color: white;
+      padding: 86px 7% 78px;
+      background:
+        linear-gradient(115deg, rgba(15,48,32,.96), rgba(35,91,59,.84)),
+        radial-gradient(circle at 85% 20%, #7ca66a, transparent 35%);
+    }
+    .hero-inner { max-width: 1050px; margin: auto; }
+    .eyebrow { color: #cce4c5; text-transform: uppercase; letter-spacing: 2px; font-size: .78rem; font-weight: 700; }
+    h1 { font-size: clamp(2.4rem, 6vw, 4.5rem); line-height: 1.08; margin: 15px 0; max-width: 850px; }
+    .hero p { max-width: 730px; font-size: 1.15rem; color: #edf4ed; }
+    .buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .button { display: inline-block; padding: 12px 18px; border-radius: 7px; font-weight: 700; text-decoration: none; }
+    .button.primary { background: #e1efcf; color: var(--forest); }
+    .button.secondary { border: 1px solid rgba(255,255,255,.65); color: white; }
+    main { max-width: 1050px; margin: auto; padding: 0 24px 55px; }
+    section { padding: 54px 0 8px; scroll-margin-top: 75px; }
+    .section-label { color: var(--green); text-transform: uppercase; letter-spacing: 1.7px; font-size: .75rem; font-weight: 800; }
+    h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); line-height: 1.2; margin: 8px 0 18px; color: var(--forest); }
+    .intro { max-width: 820px; color: var(--muted); font-size: 1.06rem; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
+    .card { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 23px; box-shadow: 0 5px 20px rgba(24, 58, 39, .035); }
+    .card h3 { color: var(--forest); margin: 0 0 8px; font-size: 1.13rem; }
+    .card p { margin: 0; color: var(--muted); }
+    .pill-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .pill { background: #e6eee3; color: #254b35; border-radius: 100px; padding: 8px 13px; font-size: .92rem; }
+    .highlight { background: #e8efe4; border-left: 5px solid var(--leaf); padding: 22px 24px; border-radius: 0 10px 10px 0; margin-top: 24px; }
+    .highlight p { margin: 0; }
+    .contact-box { background: var(--forest); color: white; padding: 30px; border-radius: 14px; margin-top: 22px; }
+    .contact-box h3 { margin-top: 0; font-size: 1.35rem; }
+    .contact-box p { color: #e2eee4; }
+    .contact-note { font-size: .92rem; color: #d3e4d4 !important; }
+    footer { background: #102e1f; color: #d9e7dc; padding: 24px 5%; text-align: center; font-size: .9rem; }
+    @media (max-width: 680px) {
+      .topbar { align-items: flex-start; flex-direction: column; }
+      nav { gap: 12px; }
+      .hero { padding: 62px 6% 58px; }
+      main { padding-left: 19px; padding-right: 19px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Reitzcarlton Lung’ayia M.</div>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Expertise</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Forestry • Restoration • Conservation</div>
+      <h1>Restoring forests.<br>Conserving biodiversity.<br>Empowering communities.</h1>
+      <p>I’m Reitzcarlton Lung’ayia M., a forestry professional committed to forest restoration, indigenous tree conservation, and community-based environmental stewardship.</p>
+      <div class="buttons">
+        <a class="button primary" href="#about">Explore my profile</a>
+        <a class="button secondary" href="#contact">Contact me</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about">
+      <div class="section-label">About me</div>
+      <h2>A practical, community-centred approach to conservation</h2>
+      <p class="intro">I am a trained forestry professional with a Diploma in Forestry from Kenya Forestry College, awarded with Distinction. My interests and practical work focus on restoring degraded forest landscapes, supporting indigenous tree production, and working with communities and conservation partners to protect natural resources.</p>
+      <p class="intro">My conservation experience includes work connected with the rehabilitation of Kakamega Tropical Rainforest, tree nursery operations, indigenous seedling production, forest establishment, and community participation in restoration activities. I value practical fieldwork, collaboration, and long-term care of restored sites.</p>
+      <div class="highlight">
+        <p><strong>Professional mission:</strong> To help restore degraded landscapes, conserve biodiversity, strengthen community stewardship, and support sustainable management of Kenya’s forest resources.</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="section-label">Education</div>
+      <h2>Training and qualifications</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Diploma in Forestry</h3>
+          <p><strong>Kenya Forestry College</strong><br>Graduated with Distinction.</p>
+        </article>
+        <article class="card">
+          <h3>Professional focus</h3>
+          <p>Applying forestry knowledge and field experience to forest restoration, tree growing, biodiversity conservation, and sustainable forest management.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="section-label">Experience</div>
+      <h2>Forest restoration and field practice</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Tree nursery management</h3>
+          <p>Experience supporting nursery operations and indigenous seedling production for forest rehabilitation and tree-growing initiatives.</p>
+        </article>
+        <article class="card">
+          <h3>Forest rehabilitation</h3>
+          <p>Involvement in restoration activities in the Kakamega forest landscape, including site preparation, planting support, and post-planting care.</p>
+        </article>
+        <article class="card">
+          <h3>Forest inventory and monitoring</h3>
+          <p>Field-based work involving tree counts, survival assessments, natural regeneration observations, and recording site-level information.</p>
+        </article>
+        <article class="card">
+          <h3>Community conservation</h3>
+          <p>Supporting community participation and collaboration with conservation stakeholders to strengthen forest protection and restoration outcomes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-label">Core expertise</div>
+      <h2>Areas of practice</h2>
+      <div class="pill-list">
+        <span class="pill">Forest restoration</span>
+        <span class="pill">Indigenous tree propagation</span>
+        <span class="pill">Tree nursery management</span>
+        <span class="pill">Forest inventory</span>
+        <span class="pill">Plantation establishment</span>
+        <span class="pill">Site preparation</span>
+        <span class="pill">Seedling survival monitoring</span>
+        <span class="pill">Biodiversity conservation</span>
+        <span class="pill">Natural regeneration</span>
+        <span class="pill">Community-based conservation</span>
+        <span class="pill">Environmental stewardship</span>
+      </div>
+    </section>
+
+    <section id="vision">
+      <div class="section-label">Vision</div>
+      <h2>Growing a lasting conservation impact</h2>
+      <p class="intro">I aim to contribute to effective forest management, climate resilience, and sustainable community livelihoods by combining technical forestry practice with community partnerships and evidence-based restoration.</p>
+    </section>
+
+    <section id="contact">
+      <div class="section-label">Get in touch</div>
+      <h2>Professional contact</h2>
+      <div class="contact-box">
+        <h3>Let’s connect on forestry and conservation.</h3>
+        <p>I welcome professional connections, collaboration, and opportunities related to forest restoration, tree growing, and environmental conservation.</p>
+        <p class="contact-note"><strong>Before publishing:</strong> Add your preferred professional email address and any social/profile links you want visitors to use. Do not publish a private phone number unless you want it publicly visible.</p>
+        <!-- To add your email, replace the placeholder below with: <a href="mailto:you@example.com">you@example.com</a> -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> Reitzcarlton Lung’ayia M. • Forester & Environmental Conservationist</div>
+    <div>Forest restoration • Biodiversity • Community conservation</div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
